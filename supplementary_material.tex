@@ -1,0 +1,53 @@
+%%%%%%%% ICML 2021 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs} % for professional tables
+\usepackage[toc,page]{appendix}
+
+% hyperref makes hyperlinks in the resulting PDF.
+% If your build breaks (sometimes temporarily if a hyperlink spans a page)
+% please comment out the following usepackage line and replace
+% \usepackage{icml2021} with \usepackage[nohyperref]{icml2021} above.
+\usepackage{hyperref}
+
+% Attempt to make hyperref and algorithmic work together better:
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+% Use the following line for the initial blind version submitted for review:
+\usepackage{icml2021}
+
+% inserted by alex
+\usepackage{amsmath,amssymb}
+\DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\usepackage[dvipsnames]{xcolor}
+% \usepackage[linesnumbered]{algorithm2e}
+
+\begin{document}
+
+\newcommand{\gn}[1]{{\small \textbf{\color{magenta}[GN-- #1]}}}
+
+\newcommand{\jl}[1]{{\small \textbf{\color{red}[JL-- #1]}}}
+
+\newcommand{\alex}[1]{{\small \textbf{\color{blue}[alex-- #1]}}}
+
+\newcommand{\ed}[1]{{\small \textbf{\color{OliveGreen}[ed-- #1]}}}
+
+\newcommand{\claire}[1]{{\small \textbf{\color{RawSienna}[claire-- #1]}}}
+
+\newcommand{\pcyin}[1]{{\small \textbf{\color{cyan}[pcyin-- #1]}}}
+
+\begin{appendices}
+\section{This is the first}
+
+\section{This is the second}
+
+\end{appendices}
+
+\end{document}
+
